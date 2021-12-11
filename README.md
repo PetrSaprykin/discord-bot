@@ -1,6 +1,7 @@
 # discord-bot
 This is discord bot, it can play YouTube videos in the voice channel.
 To add a bot to the server, you must create it in the Discord Dev Portal.
+Read how to create and add a bot to the server in google
 Get a unique token for your bot and copy it to the config.json file.
 
 Here is a list of npm packages that this bot needs to run
