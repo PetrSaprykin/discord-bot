@@ -1,0 +1,1 @@
+start node C:\Users\Petr\Desktop\bot-double-backup\bot\bot.js 
