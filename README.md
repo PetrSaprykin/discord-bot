@@ -2,7 +2,7 @@
 This is discord bot, it can play YouTube videos in the voice channel.
 To add a bot to the server, you must create it in the Discord Dev Portal.
 Read how to create and add a bot to the server in google
-Get a unique token for your bot and copy it to the config.json file.
+Get a unique token for your bot and copy it to the <b>config.json</b> file.
 
 Here is a list of npm packages that this bot needs to run
 
@@ -15,5 +15,5 @@ Here is a list of npm packages that this bot needs to run
 -- ytdl-core@^4.9.1 <br>
 -- the latest version of node.js <br>
 
-To start the bot, enter "node bot.js" into the terminal <br>
-Enter " !help " in the channel chat to view the list of bot commands
+To start the bot, enter <b>"node bot.js"</b> into the terminal or run <b>start.bat</b><br>
+Enter " <b>!help</b> " in the channel chat to view the list of bot commands
