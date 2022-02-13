@@ -13,6 +13,7 @@ Here is a list of npm packages that this bot needs to run
 -- youtube-api@^3.0.1 <br>
 -- youtube-search-api@^1.0.11 <br>
 -- ytdl-core@^4.9.1 <br>
+-- node-axios <br>
 -- the latest version of node.js <br>
 
 To start the bot, enter <b>"node bot.js"</b> into the terminal or run <b>start.bat</b><br>
