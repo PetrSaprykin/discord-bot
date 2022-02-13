@@ -1,43 +1,17 @@
 const Discord = require('discord.js');
 const { Intents } = require('discord.js');
 const client = new Discord.Client({ intents: 32767 });
+const { disconnect, send } = require('process');
 const comms = require("./comms.js");
-const fs = require('fs');
-let config = require('./config.json');
-let token = config.token;
-let prefix = config.prefix;
-const ytdl = require('ytdl-core');
-const { info } = require('console');
-const { send } = require('process');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+const config = require('./config.json');
+const prefix = config.prefix;
+const token = config.token;
 
 client.on("ready", function() {
-  console.log(client.user.username + " start!");
+  console.log(client.user.username + " запустился!");
 });
 
-client.on('messageCreate', (msg) => {
+client.on('messageCreate', (msg) => { // Реагирование на сообщения
   if (msg.author.username != client.user.username && msg.author.discriminator != client.user.discriminator) {
     let comm = msg.content.trim() + " ";
     let comm_name = comm.slice(0, comm.indexOf(" "));
@@ -51,5 +25,4 @@ client.on('messageCreate', (msg) => {
   }
 });
 
-
-client.login(token);
+client.login(token); // Авторизация бота
